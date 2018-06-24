@@ -1,0 +1,37 @@
+.App {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.compass-container {
+  position: relative;
+  width: 252px;
+  height: 168px;
+}
+
+.compass {
+  display: block;
+  width: 252px;
+  height: 168px;
+  fill: none;
+  stroke: #000;
+  stroke-width: 1;
+}
+
+.roses {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 168px;
+  height: 168px;
+}
+
+.rose {
+  transition: .6s ease;
+}
+
+.rose path {
+  /* offset the rose insidie its square container so its visually accurate */
+  transform: rotate(-15deg);
+}

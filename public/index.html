@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <svg style="display: none;">
+      <symbol id="compass" viewBox="0 0 252 168" preserveAspectRatio="xMinYMin">
+        <circle cx="126" cy="84" r="64"></circle>
+        <line x1="190" y1="84" x2="184" y2="84"></line>
+        <line x1="187.81925288250036" y1="67.43558111343867" x2="182.02369792476597" y2="68.98849538405379"></line>
+        <line x1="181.42562584220408" y1="52" x2="176.22947341949745" y2="55"></line>
+        <line x1="171.25483399593904" y1="38.74516600406096" x2="167.01219330881975" y2="42.987806691180246"></line>
+        <line x1="158" y1="28.57437415779593" x2="155" y2="33.77052658050256"></line>
+        <line x1="142.56441888656133" y1="22.180747117499628" x2="141.0115046159462" y2="27.976302075234038"></line>
+        <line x1="126" y1="20" x2="126" y2="26"></line>
+        <line x1="109.43558111343867" y1="22.180747117499628" x2="110.9884953840538" y2="27.976302075234038"></line>
+        <line x1="94.00000000000001" y1="28.574374157795923" x2="97.00000000000001" y2="33.770526580502555"></line>
+        <line x1="80.74516600406096" y1="38.745166004060955" x2="84.98780669118025" y2="42.98780669118024"></line>
+        <line x1="70.57437415779592" y1="52" x2="75.77052658050255" y2="55"></line>
+        <line x1="64.18074711749964" y1="67.43558111343866" x2="69.97630207523405" y2="68.98849538405378"></line>
+        <line x1="62" y1="83.99999999999999" x2="68" y2="84"></line>
+        <line x1="64.18074711749964" y1="100.56441888656133" x2="69.97630207523403" y2="99.01150461594621"></line>
+        <line x1="70.57437415779592" y1="115.99999999999999" x2="75.77052658050255" y2="112.99999999999999"></line>
+        <line x1="80.74516600406093" y1="129.254833995939" x2="84.98780669118023" y2="125.01219330881973"></line>
+        <line x1="93.99999999999997" y1="139.42562584220406" x2="96.99999999999997" y2="134.22947341949742"></line>
+        <line x1="109.43558111343867" y1="145.81925288250036" x2="110.9884953840538" y2="140.02369792476597"></line>
+        <line x1="125.99999999999999" y1="148" x2="125.99999999999999" y2="142"></line>
+        <line x1="142.5644188865613" y1="145.8192528825004" x2="141.01150461594617" y2="140.02369792476597"></line>
+        <line x1="158" y1="139.42562584220406" x2="155" y2="134.22947341949742"></line>
+        <line x1="171.25483399593904" y1="129.25483399593907" x2="167.01219330881975" y2="125.01219330881977"></line>
+        <line x1="181.42562584220406" y1="116.00000000000003" x2="176.22947341949742" y2="113.00000000000003"></line>
+        <line x1="187.81925288250036" y1="100.56441888656138" x2="182.02369792476594" y2="99.01150461594625"></line>
+        <g>
+          <text fill="#333333" font-size="14" letter-spacing=".5">
+            <tspan x="122" y="16">0º</tspan>
+          </text>
+          <text fill="#333333" font-size="10">
+            <tspan x="172" y="37">45º</tspan>
+          </text>
+          <text fill="#333333" font-size="14" letter-spacing=".5">
+            <tspan x="194" y="86">90º</tspan>
+          </text>
+          <text fill="#333333" font-size="10">
+            <tspan x="172" y="137">135º</tspan>
+          </text>
+          <text fill="#333333" font-size="14" letter-spacing=".5">
+            <tspan x="115" y="159">180º</tspan>
+          </text>
+          <text fill="#333333" font-size="10">
+            <tspan x="58" y="137">225º</tspan>
+          </text>
+          <text fill="#333333" font-size="14" letter-spacing=".5">
+            <tspan x="30" y="86">270º</tspan>
+          </text>
+          <text fill="#333333" font-size="10">
+            <tspan x="64" y="37">315º</tspan>
+          </text>
+        </g>
+      </symbol>
+    </svg>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
