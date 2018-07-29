@@ -1,4 +1,5 @@
 // Rules taken from https://en.wikipedia.org/wiki/Points_of_the_compass
+// Each degree value is the center of each direction.
 const directions = {
     'North': 0,
     'North-northeast': 22.50,
@@ -18,6 +19,11 @@ const directions = {
     'North-northwest': 337.50,
 };
 
+/**
+ * Find the direction name for a given degree value by finding the smallest
+ * difference for the current degree for each direction name.
+ * @param {Number} deg 
+ */
 export default function getCompassDirection(deg) {
     let currDir = 'North';
     let currDeg = directions[currDir];
